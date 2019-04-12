@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path'); // nodejs的模块
 module.exports = {
     //入口文件
     entry:["src/index.js"],
