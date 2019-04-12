@@ -1,5 +1,5 @@
 node_modules/
 *.txt
-dist/*
+dist/
 !dist/index.html
 test/

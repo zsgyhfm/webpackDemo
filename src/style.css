@@ -1,0 +1,16 @@
+
+@font-face{
+    font-family: "fz";
+    src:url("./fz.ttf")
+}
+div {
+    font-family: "fz";
+    font-size: 60px;
+    color: #ffff00;
+    background: url("./tank3.png") no-repeat;
+}
+
+html, body {
+    height: 100%;
+    background-color: gray;
+}
