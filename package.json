@@ -8,6 +8,7 @@
   "mode": "development",
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^2.0.1",

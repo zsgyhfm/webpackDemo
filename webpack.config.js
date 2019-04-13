@@ -2,13 +2,14 @@ const path = require('path'); // nodejs的模块
 const HTMLWeabpackPligin = require("html-webpack-plugin");//导入模块 这个模块会自动吧出口文件放到打包文件夹中页面的script中,缺陷是每次都会删除之前的html新写入
 const CleanWebpackPlugin = require("clean-webpack-plugin");//在每次构建前清理 /dist 文件夹，这样只会生成用到的文件
 const webpack = require("webpack");
+
 module.exports = {
     //单入口文件配置
     // entry: "./src/index.js",
     //多入口配置
     entry:{
         // app:"./src/app.js",
-        index:'./src/index.js',
+        index:['./src/index.js'],
     },
     //输出文件 已入口文件名来命名之后打包的文件名 实现多入口多出口
     output: {
