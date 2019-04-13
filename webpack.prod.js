@@ -28,6 +28,7 @@ module.exports = merge(common, {
     },
     module: {
         rules: [{
+            //之前报错 是因为 common 里面的style-loader， style-loader会将css转为嵌入式，而现在的是内联
             test: /\.css$/,
             use: [
                 MiniCssExtractPlugin.loader,
