@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button {
+    border: none;
+    outline: none
+}
+.container {
+    width: 1040px;
+    margin: auto;
+    height: 100%;
+}
+
+
+.clear::after{
+    content: '';
+    display: block;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.font16{
+    font-size: 66px;
+    color: greenyellow;
+}
+.font15{
+    font-size: 15px;
+}
+.font24 {
+    font-size:24px;
+}
+.colorWhite{
+    color:#fff;
+}
+.colorgreen{
+    color:#36ff00;
+}
+.colorGold{
+    color: #ffff00;
+}

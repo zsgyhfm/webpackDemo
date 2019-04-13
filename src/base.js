@@ -1,1 +1,3 @@
-console.log('base.js');
+let tag=()=>console.log('click');
+
+export default tag;
