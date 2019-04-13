@@ -11,18 +11,10 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin(),
-        new CleanWebpackPlugin(['dist'])
+        new CleanWebpackPlugin()
     ],
     module: {
         rules: [
-            {
-                //解析css 文件  注意 顺序不能错
-                test: /\.css$/,
-                use: [
-                    'style-loader', 'css-loader'
-                ],
-                exclude: "/node_modules/"
-            },
             {
                 //加载图片文件
                 test: /\.(png|jpg|gif)$/,
