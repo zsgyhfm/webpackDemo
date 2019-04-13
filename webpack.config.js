@@ -76,5 +76,5 @@ module.exports = {
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js']//这个要有 否则 ts编译会出问题，引入模块的时候不带拓展名，代理ts拓展就没有语法提示 了
-    },
+    }
 }
