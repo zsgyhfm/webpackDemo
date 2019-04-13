@@ -1,6 +1,6 @@
 import _ from'lodash' // 导入lodash模块  这个模块对js的有些方法进行了封装，也实现了些浏览器没有实现的特性
-import"./style.css"// 导入css文件  style-loader css-loader
-import data from"./data.xml" //导入xml 文件 xml-loader
+// import"./style.css"// 导入css文件  style-loader css-loader
+// import data from"./data.xml" //导入xml 文件 xml-loader
 function component() {
     let element = document.createElement('div');
 
@@ -23,6 +23,6 @@ let component = ()=>{
  */
 
 document.body.appendChild(component());
-console.log(data);
+// console.log(data);
 
 
